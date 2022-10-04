@@ -1,0 +1,415 @@
+body,html{
+  height: 100%; 
+  margin:0%; 
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* halaman login */
+.Login {
+  font-family: serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.Form-login{
+    font-family: serif;
+    text-align: center;
+    height: 75%;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black ;
+}
+.register-here{
+    font-size: medium;
+}
+.register-here:hover{
+    color: blue;
+}
+
+.button{
+    
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-radius: 5em;
+}
+
+
+/* halaman register */
+.register{
+    font-family: serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Form-register{
+
+  margin-left: 15%;
+  height: 100%;
+}
+
+.input-register{
+  border: none;
+  border-bottom: 1px solid black ;
+  width: 75%;
+}
+
+.button-register{
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-radius: 5em;
+  left: 50%;
+}
+
+#country{
+  width: 50%;
+}
+
+/* halaman home */
+
+.welcome-home{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  
+}
+
+.welcome-home1{
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+}
+
+.button-home{
+  margin: 0;
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  background-color: rgb(17, 17, 17);
+  border-radius: 5em;
+  font-size: small;
+}
+
+.button-home1{
+  color: white;
+}
+
+.background-home{
+  width: 100%;
+  height: 100%;
+  background-image:url("background_home.jpg");
+  background-size:cover;
+  margin-top: -50px;
+}
+
+/* header-login-register */
+* {box-sizing: border-box;}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  margin-top: -35px;
+  width: 350px;
+  height: 85px;
+  float: left;
+}
+
+.header {
+  overflow: hidden;
+  background-image: url("back-home.jpg");
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  size: 20px;
+  float: left;
+
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: black;
+  color: white;
+  border-radius: 5em;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .header a {
+    float: left;
+    /* display: block; */
+    text-align: center;
+  }
+  
+  .header-right {
+    float:none;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 15px;
+  }
+
+} 
+
+
+
+  /* header navigation */
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: -5px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .active{
+    background-color:rgb(9, 208, 243) ;
+    color: black;
+    font-weight: bold;
+    float:left;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(9, 208, 243);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .option{
+    background-color: #333;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .active1{
+    color: white;
+  }
+
+
+
+/* halaman about us */
+.about{
+  padding: 50px;
+  margin-top: 0%;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.artikel1{
+  background-color: black;
+}
+
+.artikel{
+  margin-top: 0%;
+  padding-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+  background-color:black;
+  color: white;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.contact{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+  background-color:black;
+  color: white;
+  font-size: small;
+  font-weight: lighter;
+}
+.contact1{
+  color: white;
+  padding-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+
+
+/* buat design footer */
+
+.tes-footer{
+  padding: 1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(75, 68, 68);
+  color: white;
+  text-align: center;
+}
+
+.about-us-tes{
+  background-color: black;
+}
+
+
+/* halaman menu  */
+
+.background-menu{
+  height: 100%;
+  width: 100%;
+  background-image: url("background_menu.png");
+  background-size: 100% 100%;
+  
+}
+
+.menu-burger{
+  text-align: center;
+  color: white;
+}
+
+.our_menu{
+  width: 100%; margin-left: 13%;
+}
+ul,li{
+  margin:0;padding:0;list-style:none
+}
+
+.menu .item{
+  float:left;position:relative
+}
+.menu .item a{
+  background-color:#FFF;
+  display:block;
+  border-radius: 1em;
+  overflow:hidden;
+  position:absolute;
+  
+}
+.menu .item a h3{
+  border:0;
+  font-size:18px;
+  margin:0 0 .5em 0;
+  padding:0;
+  text-align: center; 
+  color: black;
+}
+
+.menu .item a h2{
+  border:0;
+  font-size:18px;padding:0; 
+  text-align: center;
+  background-color: yellow;
+  color: white;
+}
+
+.our_menu .menu{
+  float:left;margin:0 0 50px 0
+}
+.our_menu .menu .item{
+  background-position:9px -791px;
+  height:170px;
+  padding:0 0 0 10px;
+  width:316px
+}
+.our_menu .menu .item a{
+  height: 200px;
+  padding:114px 0 0 0;
+  top:20px;
+  width:200px;
+  text-decoration:none;
+}
+.our_menu .menu .item a img{
+  clip:rect(0px,283px,96px,0px);
+  height: 100px;
+  position:absolute;
+  top:14px;
+  left: 10px;
+  bottom: 14px;
+  width:180px
+}
+
+@media only screen and (max-width: 100%) {
+  .our_menu{
+    width:100%;margin:0;
+  }
+  
+  .background-menu{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+  }
+  @media only screen and (max-width: 620px) {
+  .our_menu{ 
+    width:330px;
+    height: 100%
+    ;margin:0}
+  }
+}
+
